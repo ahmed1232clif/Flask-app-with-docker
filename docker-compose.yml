@@ -11,6 +11,6 @@ services:
   nginx:
     build: ./nginx
     container_name: nginx
-     environment:
+    environment:
       - SERVER_NAME=0.0.0.0
     network_mode: host
